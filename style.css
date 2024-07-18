@@ -2,6 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
 :root{
     --background-color: #000;
+    --background-color2: #222222;
     --primary-color:#E6533C;
     --font-color: #ffffff;
     --second-font-color: #a7a7a77c;
@@ -247,6 +248,60 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 40px;
 
+}
+.run-con{
+    padding: 25px 10%;
+    margin-top: 40px;
+
+    
+}
+.run{
+    background-color: var(--background-color2);
+    width: 80%;
+    border-radius: 18px;
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.run-left-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.run-title{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.run-desc{
+    font-size: 0.875rem;
+    color: var(--second-font-color);
+    width: 60%;
+    line-height: 20px;
+    word-spacing: 1px;
+ 
+}
+.run-btn{
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 15px 70px;
+    margin-top: 15px;
+}
+
+.run-right-side{
+    width: 40%;
+    height: 100%;
+
+    
+}
+.run-right-side img{
+    width: 100%;
+    border-radius: 18px;
 }
