@@ -970,8 +970,12 @@ color: var(--font-color);
     height: 40px;
     align-items: center;
     justify-content: center;
-    background: var(--primary-color);
+    
     display: none;
+}
+.nav-menu-icon{
+    font-size: 20px;
+    font-weight: 400;
 }
 .mobile-join-btn{
     display: none;
